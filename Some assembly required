@@ -1,0 +1,27 @@
+#Some assembly required
+
+After inspecting the website:
+
+```html
+
+<html><head>
+    <meta charset="UTF-8">
+    <script src="G82XCw5CX3.js"></script>
+</head>
+<body>
+    <h4>Enter flag:</h4>
+    <input type="text" id="input">
+    <button onclick="onButtonPress()">Submit</button>
+    <p id="result"></p>
+
+
+</body></html>
+
+```
+
+You can see the file G82XCw5CX3.js . On opening the file there is a constant string in the file with something weird:
+
+const _0x402c = ['value', '2wfTpTR', 'instantiate', '275341bEPcme', 'innerHTML', '1195047NznhZg', '1qfevql', 'input', '1699808QuoWhA', 'Correct!', 'check_flag', 'Incorrect!', './JIFxzHyW8W', '23SMpAuA', '802698XOMSrr', 'charCodeAt', '474547vVoGDO', 'getElementById', 'instance', 'copy_char', '43591XxcWUl', '504454llVtzW', 'arrayBuffer', '2NIQmVj', 'result'];
+
+Here a file ./JIFxzHyW8W is a path on opening the path it gives a file which appears to be hex but its simply gives a flag at the bottom:
+picoCTF{51e513c498950a515b1aab5e941b2615}
