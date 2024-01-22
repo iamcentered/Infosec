@@ -1,0 +1,17 @@
+#Local authority
+
+The link given opens up a site whhich wants id and Password for access. 
+On inspecting the site we find a secure.js file which contains:
+function checkPassword(username, password)
+{
+  if( username === 'admin' && password === 'strongPassword098765' )
+  {
+    return true;
+  }
+  else
+  {
+    return false;
+  }
+}
+on entering correct username and password we can see the flag:
+Flag:picoCTF{j5_15_7r4n5p4r3n7_b0c2c9cb}
