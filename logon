@@ -1,0 +1,12 @@
+#logon
+
+-> On clicking the link it takes you to a site with a Username and Password interface.
+
+-> On furthur inspecting it seems like we just need to take Admin privileges to log on.
+
+-> On checking the cookies of the given site using the Inspect element we can see there exist a cookie for admin privileges:
+admin	False	jupiter.challenges.picoctf.org	/	Session	10					Medium
+
+->Just change it to True and it gives the flag:
+Flag: picoCTF{th3_c0nsp1r4cy_l1v3s_6edb3f5f}
+
